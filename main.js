@@ -1,13 +1,13 @@
-const wrapBox = document.querySelector('.wrap-box')
-const questionCurasel = document.querySelector('.questionCurasel')
-const countdownTimer = document.querySelector('.countdownTimer')
+const wrapBox = document.querySelector('.wrap-box');
+const questionCurasel = document.querySelector('.questionCurasel');
+const countdownTimer = document.querySelector('.countdownTimer');
 const questionClass = document.querySelector('.question');
-const createQuestion = document.createElement('h4')
+const createQuestion = document.createElement('h4');
 const res = document.querySelector('.result');
-const nextBtn = document.querySelector('.nextBtn')
+const nextBtn = document.querySelector('.nextBtn');
 const answers = document.querySelector(".wrap-answers").children;
 let counter = 0;
-let result = 0
+let result = 0;
 let timer = 120;
 
 
