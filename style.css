@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(207, 221, 234);
+}
+.wrap-box{
+    background-color: #4fc4cb;
+}
+.wrap-time span{
+    background-color: #f35963;
+    border-radius: 4px;
+}
+.wrap-answers div{
+background-color: #ffe783
+}
+.wrap-answers div:hover{
+cursor: pointer;
+}
